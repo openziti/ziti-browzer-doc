@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/freebsd",
+  "id": "install/freebsd",
+  "title": "Build on FreeBSD",
+  "description": "Prerequisites",
+  "source": "@site/docs/install/freebsd.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/freebsd",
+  "permalink": "/docs/next/install/freebsd",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/install/freebsd.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Build on FreeBSD"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build for Android",
+    "permalink": "/docs/next/install/android"
+  },
+  "next": {
+    "title": "Feature Overview",
+    "permalink": "/docs/next/features"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "tests",
+  "id": "version-v22.05/tests",
+  "title": "Running Tests",
+  "description": "PcapPlusPlus source code contains a set of test-cases you can run to make sure everything works correctly on your system.",
+  "source": "@site/versioned_docs/version-v22.05/tests.mdx",
+  "sourceDirName": ".",
+  "slug": "/tests",
+  "permalink": "/docs/tests",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v22.05/tests.mdx",
+  "tags": [],
+  "version": "v22.05",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "Running Tests",
+    "sidebar_position": 10
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Benchmarks",
+    "permalink": "/docs/benchmark"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/docs/api"
+  }
+}

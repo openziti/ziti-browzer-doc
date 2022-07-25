@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/android",
+  "id": "version-v21.11/install/android",
+  "title": "Build for Android",
+  "description": "Prerequisites",
+  "source": "@site/versioned_docs/version-v21.11/install/android.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/android",
+  "permalink": "/docs/v21.11/install/android",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v21.11/install/android.mdx",
+  "tags": [],
+  "version": "v21.11",
+  "frontMatter": {
+    "title": "Build for Android"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build on Windows (MinGW)",
+    "permalink": "/docs/v21.11/install/mingw"
+  },
+  "next": {
+    "title": "Build on FreeBSD",
+    "permalink": "/docs/v21.11/install/freebsd"
+  }
+}

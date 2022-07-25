@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/mingw",
+  "id": "version-v22.05/install/mingw",
+  "title": "Build on Windows (MinGW)",
+  "description": "Prerequisites for building with MinGW",
+  "source": "@site/versioned_docs/version-v22.05/install/mingw.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/mingw",
+  "permalink": "/docs/install/mingw",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v22.05/install/mingw.mdx",
+  "tags": [],
+  "version": "v22.05",
+  "frontMatter": {
+    "title": "Build on Windows (MinGW)"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build on Windows (VS)",
+    "permalink": "/docs/install/vs"
+  },
+  "next": {
+    "title": "Build for Android",
+    "permalink": "/docs/install/android"
+  }
+}

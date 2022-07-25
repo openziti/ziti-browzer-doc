@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/linux",
+  "id": "install/linux",
+  "title": "Build on Linux",
+  "description": "Prerequisites",
+  "source": "@site/docs/install/linux.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/linux",
+  "permalink": "/docs/next/install/linux",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/install/linux.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Build on Linux"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Setting Up PcapPlusPlus",
+    "permalink": "/docs/next/install"
+  },
+  "next": {
+    "title": "Build on MacOS",
+    "permalink": "/docs/next/install/macos"
+  }
+}

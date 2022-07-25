@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/mingw",
+  "id": "version-v21.11/install/mingw",
+  "title": "Build on Windows (MinGW)",
+  "description": "Prerequisites for building with MinGW",
+  "source": "@site/versioned_docs/version-v21.11/install/mingw.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/mingw",
+  "permalink": "/docs/v21.11/install/mingw",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v21.11/install/mingw.mdx",
+  "tags": [],
+  "version": "v21.11",
+  "frontMatter": {
+    "title": "Build on Windows (MinGW)"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build on Windows (VS)",
+    "permalink": "/docs/v21.11/install/vs"
+  },
+  "next": {
+    "title": "Build for Android",
+    "permalink": "/docs/v21.11/install/android"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "api",
+  "id": "version-v22.05/api",
+  "title": "API Reference",
+  "description": "<ButtonLink",
+  "source": "@site/versioned_docs/version-v22.05/api.mdx",
+  "sourceDirName": ".",
+  "slug": "/api",
+  "permalink": "/docs/api",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v22.05/api.mdx",
+  "tags": [],
+  "version": "v22.05",
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "title": "API Reference",
+    "sidebar_position": 99
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Running Tests",
+    "permalink": "/docs/tests"
+  }
+}

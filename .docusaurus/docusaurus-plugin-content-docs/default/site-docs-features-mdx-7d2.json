@@ -1,0 +1,28 @@
+{
+  "unversionedId": "features",
+  "id": "features",
+  "title": "Feature Overview",
+  "description": "Packet capture",
+  "source": "@site/docs/features.mdx",
+  "sourceDirName": ".",
+  "slug": "/features",
+  "permalink": "/docs/next/features",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/features.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "Feature Overview",
+    "sidebar_position": 3
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build on FreeBSD",
+    "permalink": "/docs/next/install/freebsd"
+  },
+  "next": {
+    "title": "DPDK Support",
+    "permalink": "/docs/next/dpdk"
+  }
+}

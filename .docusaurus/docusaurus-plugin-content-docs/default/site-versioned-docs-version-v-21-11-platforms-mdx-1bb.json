@@ -1,0 +1,28 @@
+{
+  "unversionedId": "platforms",
+  "id": "version-v21.11/platforms",
+  "title": "Supported platforms",
+  "description": "The platforms and toolchains described below are supported and being continuously tested.",
+  "source": "@site/versioned_docs/version-v21.11/platforms.mdx",
+  "sourceDirName": ".",
+  "slug": "/platforms",
+  "permalink": "/docs/v21.11/platforms",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v21.11/platforms.mdx",
+  "tags": [],
+  "version": "v21.11",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Supported platforms",
+    "sidebar_position": 6
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Part 6: Working With DPDK",
+    "permalink": "/docs/v21.11/tutorials/dpdk"
+  },
+  "next": {
+    "title": "Example Apps",
+    "permalink": "/docs/v21.11/examples"
+  }
+}

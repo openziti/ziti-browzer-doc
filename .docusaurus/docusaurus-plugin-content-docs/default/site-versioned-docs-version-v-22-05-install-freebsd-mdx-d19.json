@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/freebsd",
+  "id": "version-v22.05/install/freebsd",
+  "title": "Build on FreeBSD",
+  "description": "Prerequisites",
+  "source": "@site/versioned_docs/version-v22.05/install/freebsd.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/freebsd",
+  "permalink": "/docs/install/freebsd",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v22.05/install/freebsd.mdx",
+  "tags": [],
+  "version": "v22.05",
+  "frontMatter": {
+    "title": "Build on FreeBSD"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build for Android",
+    "permalink": "/docs/install/android"
+  },
+  "next": {
+    "title": "Feature Overview",
+    "permalink": "/docs/features"
+  }
+}

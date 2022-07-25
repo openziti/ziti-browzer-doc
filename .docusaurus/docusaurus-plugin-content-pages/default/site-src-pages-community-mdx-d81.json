@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/community",
+  "source": "@site/src/pages/community.mdx",
+  "title": "Community",
+  "description": "PcapPlusPlus is open source and we would love to hear from you! Below you'll find ways to contact us and get involved in the community as well as links to resources that can help answer your questions.",
+  "frontMatter": {
+    "title": "Community"
+  }
+}

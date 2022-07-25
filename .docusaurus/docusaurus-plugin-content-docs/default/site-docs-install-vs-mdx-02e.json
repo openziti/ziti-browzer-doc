@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/vs",
+  "id": "install/vs",
+  "title": "Build on Windows (VS)",
+  "description": "Please visit the supported platforms page to see the Visual Studio versions currently supported in PcapPlusPlus.",
+  "source": "@site/docs/install/vs.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/vs",
+  "permalink": "/docs/next/install/vs",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/install/vs.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Build on Windows (VS)"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build on MacOS",
+    "permalink": "/docs/next/install/macos"
+  },
+  "next": {
+    "title": "Build on Windows (MinGW-w64)",
+    "permalink": "/docs/next/install/mingw"
+  }
+}

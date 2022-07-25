@@ -1,0 +1,25 @@
+{
+  "unversionedId": "quickstart",
+  "id": "version-v22.05/quickstart",
+  "title": "Getting Started",
+  "description": "PcapPlusPlus is a multi-platform C++ library for capturing, parsing and crafting of network packets. It is designed to be efficient, powerful and easy to use.",
+  "source": "@site/versioned_docs/version-v22.05/quickstart.mdx",
+  "sourceDirName": ".",
+  "slug": "/quickstart",
+  "permalink": "/docs/quickstart",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v22.05/quickstart.mdx",
+  "tags": [],
+  "version": "v22.05",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Getting Started",
+    "sidebar_position": 1,
+    "hide_table_of_contents": true
+  },
+  "sidebar": "docs",
+  "next": {
+    "title": "Setting Up PcapPlusPlus",
+    "permalink": "/docs/install"
+  }
+}

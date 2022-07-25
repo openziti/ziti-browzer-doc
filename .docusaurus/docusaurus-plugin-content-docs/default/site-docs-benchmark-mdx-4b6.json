@@ -1,0 +1,28 @@
+{
+  "unversionedId": "benchmark",
+  "id": "benchmark",
+  "title": "Benchmarks",
+  "description": "In order to benchmark the performance of PcapPlusPlus and compare it with similar C++ libraries we used Matias Fontanini's packet-capture-benchmarks project. The benchmark compared PcapPlusPlus, libtins, libcrafter and libpcap.",
+  "source": "@site/docs/benchmark.mdx",
+  "sourceDirName": ".",
+  "slug": "/benchmark",
+  "permalink": "/docs/next/benchmark",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/benchmark.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "title": "Benchmarks",
+    "sidebar_position": 8
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Example Apps",
+    "permalink": "/docs/next/examples"
+  },
+  "next": {
+    "title": "Running Tests",
+    "permalink": "/docs/next/tests"
+  }
+}

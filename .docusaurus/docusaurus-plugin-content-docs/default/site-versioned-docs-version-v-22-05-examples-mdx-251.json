@@ -1,0 +1,28 @@
+{
+  "unversionedId": "examples",
+  "id": "version-v22.05/examples",
+  "title": "Example Apps",
+  "description": "PcapPlusPlus contains various example applications that make use of most PcapPlusPlus APIs and features. Although some of them may be useful on their own (like arping or arp-spoofing), their main objective is to show how to use PcapPlusPlus. All examples are well documented and contain code which is easy to understand. After compiling PcapPlusPlus all compiled applications are under Dist/examples. Here is the list of example applications:",
+  "source": "@site/versioned_docs/version-v22.05/examples.mdx",
+  "sourceDirName": ".",
+  "slug": "/examples",
+  "permalink": "/docs/examples",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v22.05/examples.mdx",
+  "tags": [],
+  "version": "v22.05",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "title": "Example Apps",
+    "sidebar_position": 7
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Supported platforms",
+    "permalink": "/docs/platforms"
+  },
+  "next": {
+    "title": "Benchmarks",
+    "permalink": "/docs/benchmark"
+  }
+}

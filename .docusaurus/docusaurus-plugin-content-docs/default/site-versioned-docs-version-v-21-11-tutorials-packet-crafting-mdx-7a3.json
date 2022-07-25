@@ -1,0 +1,28 @@
+{
+  "unversionedId": "tutorials/packet-crafting",
+  "id": "version-v21.11/tutorials/packet-crafting",
+  "title": "Part 5: Packet Crafting",
+  "description": "Introduction",
+  "source": "@site/versioned_docs/version-v21.11/tutorials/packet-crafting.mdx",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/packet-crafting",
+  "permalink": "/docs/v21.11/tutorials/packet-crafting",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v21.11/tutorials/packet-crafting.mdx",
+  "tags": [],
+  "version": "v21.11",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "title": "Part 5: Packet Crafting"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Part 4: Packet Parsing",
+    "permalink": "/docs/v21.11/tutorials/packet-parsing"
+  },
+  "next": {
+    "title": "Part 6: Working With DPDK",
+    "permalink": "/docs/v21.11/tutorials/dpdk"
+  }
+}

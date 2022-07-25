@@ -1,0 +1,28 @@
+{
+  "unversionedId": "tutorials/read-write-pcap",
+  "id": "version-v22.05/tutorials/read-write-pcap",
+  "title": "Part 2: Read/Write Pcap Files",
+  "description": "Introduction",
+  "source": "@site/versioned_docs/version-v22.05/tutorials/read-write-pcap.mdx",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/read-write-pcap",
+  "permalink": "/docs/tutorials/read-write-pcap",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v22.05/tutorials/read-write-pcap.mdx",
+  "tags": [],
+  "version": "v22.05",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "title": "Part 2: Read/Write Pcap Files"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Part 1: Introduction And Basics",
+    "permalink": "/docs/tutorials/intro"
+  },
+  "next": {
+    "title": "Part 3: Capture/Send Packets",
+    "permalink": "/docs/tutorials/capture-packets"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorials/dpdk",
+  "id": "version-v22.05/tutorials/dpdk",
+  "title": "Part 6: Working With DPDK",
+  "description": "Introduction",
+  "source": "@site/versioned_docs/version-v22.05/tutorials/dpdk.mdx",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/dpdk",
+  "permalink": "/docs/tutorials/dpdk",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v22.05/tutorials/dpdk.mdx",
+  "tags": [],
+  "version": "v22.05",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Part 5: Packet Crafting",
+    "permalink": "/docs/tutorials/packet-crafting"
+  },
+  "next": {
+    "title": "Supported platforms",
+    "permalink": "/docs/platforms"
+  }
+}

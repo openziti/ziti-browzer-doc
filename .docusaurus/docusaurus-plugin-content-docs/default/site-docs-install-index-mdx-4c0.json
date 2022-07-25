@@ -1,0 +1,27 @@
+{
+  "unversionedId": "install/index",
+  "id": "install/index",
+  "title": "Setting Up PcapPlusPlus",
+  "description": "PcapPlusPlus is available on  Windows,  Linux,  MacOS,  Android and  FreeBSD (see more details here).",
+  "source": "@site/docs/install/index.mdx",
+  "sourceDirName": "install",
+  "slug": "/install",
+  "permalink": "/docs/next/install",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/install/index.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/install",
+    "title": "Setting Up PcapPlusPlus"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/next/quickstart"
+  },
+  "next": {
+    "title": "Build on Linux",
+    "permalink": "/docs/next/install/linux"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorials/packet-parsing",
+  "id": "tutorials/packet-parsing",
+  "title": "Part 4: Packet Parsing",
+  "description": "Introduction",
+  "source": "@site/docs/tutorials/packet-parsing.mdx",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/packet-parsing",
+  "permalink": "/docs/next/tutorials/packet-parsing",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/tutorials/packet-parsing.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Part 3: Capture/Send Packets",
+    "permalink": "/docs/next/tutorials/capture-packets"
+  },
+  "next": {
+    "title": "Part 5: Packet Crafting",
+    "permalink": "/docs/next/tutorials/packet-crafting"
+  }
+}

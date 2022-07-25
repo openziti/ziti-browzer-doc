@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/macos",
+  "id": "version-v21.11/install/macos",
+  "title": "Build on MacOS",
+  "description": "Prerequisites",
+  "source": "@site/versioned_docs/version-v21.11/install/macos.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/macos",
+  "permalink": "/docs/v21.11/install/macos",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v21.11/install/macos.mdx",
+  "tags": [],
+  "version": "v21.11",
+  "frontMatter": {
+    "title": "Build on MacOS"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build on Linux",
+    "permalink": "/docs/v21.11/install/linux"
+  },
+  "next": {
+    "title": "Build on Windows (VS)",
+    "permalink": "/docs/v21.11/install/vs"
+  }
+}

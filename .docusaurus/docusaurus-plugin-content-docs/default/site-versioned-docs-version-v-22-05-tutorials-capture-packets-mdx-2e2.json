@@ -1,0 +1,28 @@
+{
+  "unversionedId": "tutorials/capture-packets",
+  "id": "version-v22.05/tutorials/capture-packets",
+  "title": "Part 3: Capture/Send Packets",
+  "description": "Introduction",
+  "source": "@site/versioned_docs/version-v22.05/tutorials/capture-packets.mdx",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/capture-packets",
+  "permalink": "/docs/tutorials/capture-packets",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/versioned_docs/version-v22.05/tutorials/capture-packets.mdx",
+  "tags": [],
+  "version": "v22.05",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "title": "Part 3: Capture/Send Packets"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Part 2: Read/Write Pcap Files",
+    "permalink": "/docs/tutorials/read-write-pcap"
+  },
+  "next": {
+    "title": "Part 4: Packet Parsing",
+    "permalink": "/docs/tutorials/packet-parsing"
+  }
+}

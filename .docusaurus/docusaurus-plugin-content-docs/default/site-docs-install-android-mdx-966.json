@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/android",
+  "id": "install/android",
+  "title": "Build for Android",
+  "description": "Prerequisites",
+  "source": "@site/docs/install/android.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/android",
+  "permalink": "/docs/next/install/android",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/install/android.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Build for Android"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build on Windows (MinGW-w64)",
+    "permalink": "/docs/next/install/mingw"
+  },
+  "next": {
+    "title": "Build on FreeBSD",
+    "permalink": "/docs/next/install/freebsd"
+  }
+}

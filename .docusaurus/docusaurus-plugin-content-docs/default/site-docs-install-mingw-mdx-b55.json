@@ -1,0 +1,26 @@
+{
+  "unversionedId": "install/mingw",
+  "id": "install/mingw",
+  "title": "Build on Windows (MinGW-w64)",
+  "description": "Prerequisites",
+  "source": "@site/docs/install/mingw.mdx",
+  "sourceDirName": "install",
+  "slug": "/install/mingw",
+  "permalink": "/docs/next/install/mingw",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/install/mingw.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Build on Windows (MinGW-w64)"
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Build on Windows (VS)",
+    "permalink": "/docs/next/install/vs"
+  },
+  "next": {
+    "title": "Build for Android",
+    "permalink": "/docs/next/install/android"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "tests",
+  "id": "tests",
+  "title": "Running Tests",
+  "description": "PcapPlusPlus source code contains a set of test-cases you can run to make sure everything works correctly on your system.",
+  "source": "@site/docs/tests.mdx",
+  "sourceDirName": ".",
+  "slug": "/tests",
+  "permalink": "/docs/next/tests",
+  "draft": false,
+  "editUrl": "https://github.com/PcapPlusPlus/pcapplusplus.github.io/edit/master/docs/tests.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "title": "Running Tests",
+    "sidebar_position": 10
+  },
+  "sidebar": "docs",
+  "previous": {
+    "title": "Benchmarks",
+    "permalink": "/docs/next/benchmark"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/docs/next/api"
+  }
+}

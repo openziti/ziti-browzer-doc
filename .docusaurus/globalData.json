@@ -1,0 +1,394 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": false,
+          "path": "/docs/next",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "api",
+              "path": "/docs/next/api",
+              "sidebar": "docs"
+            },
+            {
+              "id": "benchmark",
+              "path": "/docs/next/benchmark",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dpdk",
+              "path": "/docs/next/dpdk",
+              "sidebar": "docs"
+            },
+            {
+              "id": "examples",
+              "path": "/docs/next/examples",
+              "sidebar": "docs"
+            },
+            {
+              "id": "features",
+              "path": "/docs/next/features",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/android",
+              "path": "/docs/next/install/android",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/freebsd",
+              "path": "/docs/next/install/freebsd",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/index",
+              "path": "/docs/next/install",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/linux",
+              "path": "/docs/next/install/linux",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/macos",
+              "path": "/docs/next/install/macos",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/mingw",
+              "path": "/docs/next/install/mingw",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/vs",
+              "path": "/docs/next/install/vs",
+              "sidebar": "docs"
+            },
+            {
+              "id": "platforms",
+              "path": "/docs/next/platforms",
+              "sidebar": "docs"
+            },
+            {
+              "id": "quickstart",
+              "path": "/docs/next/quickstart",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tests",
+              "path": "/docs/next/tests",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/capture-packets",
+              "path": "/docs/next/tutorials/capture-packets",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/dpdk",
+              "path": "/docs/next/tutorials/dpdk",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/intro",
+              "path": "/docs/next/tutorials/intro",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/packet-crafting",
+              "path": "/docs/next/tutorials/packet-crafting",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/packet-parsing",
+              "path": "/docs/next/tutorials/packet-parsing",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/read-write-pcap",
+              "path": "/docs/next/tutorials/read-write-pcap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials",
+              "path": "/docs/next/tutorials",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/docs/next/quickstart",
+                "label": "quickstart"
+              }
+            }
+          }
+        },
+        {
+          "name": "v22.05",
+          "label": "v22.05",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "api",
+              "path": "/docs/api",
+              "sidebar": "docs"
+            },
+            {
+              "id": "benchmark",
+              "path": "/docs/benchmark",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dpdk",
+              "path": "/docs/dpdk",
+              "sidebar": "docs"
+            },
+            {
+              "id": "examples",
+              "path": "/docs/examples",
+              "sidebar": "docs"
+            },
+            {
+              "id": "features",
+              "path": "/docs/features",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/android",
+              "path": "/docs/install/android",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/freebsd",
+              "path": "/docs/install/freebsd",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/index",
+              "path": "/docs/install",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/linux",
+              "path": "/docs/install/linux",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/macos",
+              "path": "/docs/install/macos",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/mingw",
+              "path": "/docs/install/mingw",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/vs",
+              "path": "/docs/install/vs",
+              "sidebar": "docs"
+            },
+            {
+              "id": "platforms",
+              "path": "/docs/platforms",
+              "sidebar": "docs"
+            },
+            {
+              "id": "quickstart",
+              "path": "/docs/quickstart",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tests",
+              "path": "/docs/tests",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/capture-packets",
+              "path": "/docs/tutorials/capture-packets",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/dpdk",
+              "path": "/docs/tutorials/dpdk",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/intro",
+              "path": "/docs/tutorials/intro",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/packet-crafting",
+              "path": "/docs/tutorials/packet-crafting",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/packet-parsing",
+              "path": "/docs/tutorials/packet-parsing",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/read-write-pcap",
+              "path": "/docs/tutorials/read-write-pcap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials",
+              "path": "/docs/tutorials",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/docs/quickstart",
+                "label": "quickstart"
+              }
+            }
+          }
+        },
+        {
+          "name": "v21.11",
+          "label": "v21.11",
+          "isLast": false,
+          "path": "/docs/v21.11",
+          "mainDocId": "quickstart",
+          "docs": [
+            {
+              "id": "api",
+              "path": "/docs/v21.11/api",
+              "sidebar": "docs"
+            },
+            {
+              "id": "benchmark",
+              "path": "/docs/v21.11/benchmark",
+              "sidebar": "docs"
+            },
+            {
+              "id": "dpdk",
+              "path": "/docs/v21.11/dpdk",
+              "sidebar": "docs"
+            },
+            {
+              "id": "examples",
+              "path": "/docs/v21.11/examples",
+              "sidebar": "docs"
+            },
+            {
+              "id": "features",
+              "path": "/docs/v21.11/features",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/android",
+              "path": "/docs/v21.11/install/android",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/freebsd",
+              "path": "/docs/v21.11/install/freebsd",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/index",
+              "path": "/docs/v21.11/install",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/linux",
+              "path": "/docs/v21.11/install/linux",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/macos",
+              "path": "/docs/v21.11/install/macos",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/mingw",
+              "path": "/docs/v21.11/install/mingw",
+              "sidebar": "docs"
+            },
+            {
+              "id": "install/vs",
+              "path": "/docs/v21.11/install/vs",
+              "sidebar": "docs"
+            },
+            {
+              "id": "platforms",
+              "path": "/docs/v21.11/platforms",
+              "sidebar": "docs"
+            },
+            {
+              "id": "quickstart",
+              "path": "/docs/v21.11/quickstart",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tests",
+              "path": "/docs/v21.11/tests",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/capture-packets",
+              "path": "/docs/v21.11/tutorials/capture-packets",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/dpdk",
+              "path": "/docs/v21.11/tutorials/dpdk",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/intro",
+              "path": "/docs/v21.11/tutorials/intro",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/packet-crafting",
+              "path": "/docs/v21.11/tutorials/packet-crafting",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/packet-parsing",
+              "path": "/docs/v21.11/tutorials/packet-parsing",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials/read-write-pcap",
+              "path": "/docs/v21.11/tutorials/read-write-pcap",
+              "sidebar": "docs"
+            },
+            {
+              "id": "tutorials",
+              "path": "/docs/v21.11/tutorials",
+              "sidebar": "docs"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docs": {
+              "link": {
+                "path": "/docs/v21.11/quickstart",
+                "label": "quickstart"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}
