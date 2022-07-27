@@ -90,8 +90,8 @@ const config = {
         title: "OpenZiti BrowZer",
         logo: {
           alt: "Lerna Logo",
-          src: "images/lerna-logo-dark.svg",
-          srcDark: "images/lerna-logo-light.svg",
+          src: "images/browzer-logo.svg",
+          srcDark: "images/browzer-logo.svg",
         },
         items: [
           {

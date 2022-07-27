@@ -84,7 +84,7 @@ export default function HeroLerna(): JSX.Element {
               <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
               <div className="padding-vert--md row">
                 <div className="col">
-                  <a href="/docs/getting-started" className="button button--lg button--block button--primary button--green">
+                  <a href="/docs/getting-started" className="button button--lg button--block button--primary button--red">
                     Get Started
                   </a>
                 </div>
@@ -96,7 +96,7 @@ export default function HeroLerna(): JSX.Element {
             <div className={styles.illustration}>
               <div
                 className={styles.illustration__container}
-                style={{ backgroundImage: 'url("/images/lerna-logo-light.svg")' }}
+                style={{ backgroundImage: 'url("/images/browzer-logo.svg")' }}
               >
                 <LernaIcon className={styles.illustration__svg} />
               </div>
