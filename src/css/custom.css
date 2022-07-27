@@ -10,7 +10,7 @@
   --ifm-background-surface-color: #f1f5f9;
   --ifm-background-surface-color-dark: #e2e8f0;
   --ifm-footer-background-color: #f8fafc;
-  --ifm-color-primary: #246ddc;
+  --ifm-color-primary: #158eed;
   --ifm-color-primary-dark: #8519e7;
   --ifm-color-primary-darker: #7e17dc;
   --ifm-color-primary-darkest: #6813b5;
@@ -28,7 +28,7 @@ html[data-theme="dark"] {
   --ifm-background-surface-color: #1f2937;
   --ifm-background-surface-color-dark: #374151;
   --ifm-footer-background-color: #111827;
-  --ifm-color-primary: #246ddc;
+  --ifm-color-primary: #158eed;
   --ifm-color-primary-dark: #b671fc;
   --ifm-color-primary-darker: #ad5ffb;
   --ifm-color-primary-darkest: #a34cfb;

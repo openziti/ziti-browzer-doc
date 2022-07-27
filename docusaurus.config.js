@@ -8,13 +8,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "BrowZer",
   tagline: "Original Monorepo Tool",
-  url: "https://lerna.js.org",
+  url: "https://browzer.info",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "images/favicon.ico",
-  organizationName: "lerna",
-  projectName: "website",
+  organizationName: "OpenZiti",
+  projectName: "ziti-browzer-doc",
   deploymentBranch: "master",
   trailingSlash: false,
   // Even if you don't use internalization, you can use this field to set useful
@@ -35,7 +35,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/lerna/lerna/tree/main/website/",
+          editUrl: "https://github.com/openziti/ziti-browzer-doc/tree/main/",
           sidebarCollapsed: false,
           remarkPlugins: [require('mdx-mermaid')],
         },
@@ -60,9 +60,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        appId: "W7AFDUEIGE",
-        apiKey: "95785b7a78017aade2bc8b82ca965e24",
-        indexName: "lerna",
+        appId: "TQTSCMZ58J",
+        apiKey: "9f3a0b1ac315bf1744cdbd1c4e8b3d23",
+        indexName: "browzer",
         contextualSearch: false,
         searchPagePath: false,
       },
@@ -89,7 +89,7 @@ const config = {
       navbar: {
         title: "OpenZiti BrowZer",
         logo: {
-          alt: "Lerna Logo",
+          alt: "OpenZiti BrowZer Logo",
           src: "images/browzer-logo.svg",
           srcDark: "images/browzer-logo.svg",
         },
