@@ -154,7 +154,7 @@ const config = {
               },
               {
                 label: "Youtube Channel",
-                href: "https://www.youtube.com/channel/UCAsrfQasdZmp2Gq07Ej_5cQ?utm_source=browzer.info",
+                href: "https://www.youtube.com/openziti?utm_source=browzer.info",
               },
             ],
           },
