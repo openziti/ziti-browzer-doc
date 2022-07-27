@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./projects-using-lerna.module.css";
+import styles from "./projects-using-browzer.module.css";
 
 interface ProjectItem {
   title: string;
@@ -124,7 +124,7 @@ function Project({ title, svg, link }: ProjectItem): JSX.Element {
   );
 }
 
-export default function ProjectUsingLerna(): JSX.Element {
+export default function ProjectUsingBrowzer(): JSX.Element {
   return (
     <div className="padding-vert--xl container">
       <p className="margin-bottom--md" style={{ textAlign: "center" }}>

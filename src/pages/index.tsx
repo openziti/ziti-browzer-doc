@@ -1,11 +1,8 @@
 import React from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HeroLerna from "@site/src/components/hero-lerna";
-import ProjectsUsingLerna from "@site/src/components/projects-using-lerna";
-import PublishWithLerna from "@site/src/components/publish-with-lerna";
-import PoweredByNx from "@site/src/components/powered-by-nx";
-import AboutLerna from "@site/src/components/about-lerna";
+import HeroBrowzer from "@site/src/components/hero-browzer";
+import ProjectsUsingBrowzer from "@site/src/components/projects-using-browzer";
 
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
@@ -15,11 +12,8 @@ export default function Home(): JSX.Element {
       description="BrowZer is a modern zero trust system providing secure access to web applications."
     >
       <main>
-        <HeroLerna />
-        <ProjectsUsingLerna />
-        <PoweredByNx />
-        {/* <PublishWithLerna /> */}
-        {/* <AboutLerna /> */}
+        <HeroBrowzer />
+        <ProjectsUsingBrowzer />
       </main>
     </Layout>
   );

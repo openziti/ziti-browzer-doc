@@ -49,8 +49,7 @@ const config = {
           filename: "sitemap.xml",
         },
         gtag: {
-          trackingID: "G-1LKTTC3R7Q",
-          anonymizeIP: true,
+          trackingID: "G-HCJ7RBE9CY",
         },
       }),
     ],
@@ -78,13 +77,13 @@ const config = {
         },
       },
       metadata: [
-        { name: "keywords", content: "monorepo, javascript, typescript, lerna, nx, nrwl" },
+        { name: "keywords", content: "browzer, browser, security, web, javascript, typescript, openziti" },
         {
           name: "description",
           content:
-            "Lerna is the standard tool for managing and publishing versioned Javascript packages from a same repository.",
+            "BrowZer is a modern zero trust system providing secure access to web applications.",
         },
-        { name: "og:image", content: "https://lerna.js.org/images/og-image-lerna.png" },
+        { name: "og:image", content: "https://browzer.info/images/og-image-browzer.png" },
       ],
       navbar: {
         title: "OpenZiti BrowZer",
@@ -138,7 +137,7 @@ const config = {
             className: "header-github-link",
             "aria-label": "GitHub repository",
             position: "right",
-            title: "Lerna on Github",
+            title: "OpenZiti on Github",
           },
         ],
         hideOnScroll: true,
@@ -197,23 +196,6 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: "Solutions",
-          //   items: [
-          //     {
-          //       label: "Nx",
-          //       href: "https://nx.dev/?utm_source=lerna.js.org",
-          //     },
-          //     {
-          //       label: "NxCloud",
-          //       href: "https://nx.app/?utm_source=lerna.js.org",
-          //     },
-          //     {
-          //       label: "Nrwl",
-          //       href: "https://nrwl.io/?utm_source=lerna.js.org",
-          //     },
-          //   ],
-          // },
         ],
         copyright: `&copy; ${new Date().getFullYear()} NetFoundry`,
       },

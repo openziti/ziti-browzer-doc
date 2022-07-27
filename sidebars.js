@@ -56,42 +56,6 @@ const sidebars = {
       },
     },
 
-    // {
-    //   type: "category",
-    //   label: "Features",
-    //   items: [
-    //     "features/bootstrap",
-    //     "features/run-tasks",
-    //     "features/cache-tasks",
-    //     "features/project-graph",
-    //     "features/distribute-tasks",
-    //     "features/version-and-publish",
-    //     "features/editor-plugins",
-    //   ],
-    //   link: {
-    //     type: "generated-index",
-    //     title: "How To Guides",
-    //     description: "Get Started",
-    //     slug: "/features",
-    //   },
-    // },
-    // {
-    //   type: "category",
-    //   label: "Concepts",
-    //   items: ["concepts/hoisting"],
-    //   link: {
-    //     type: "generated-index",
-    //     title: "Concepts",
-    //     description: "Get a higher level understanding of concepts used in Lerna",
-    //     slug: "/concepts",
-    //     keywords: ["caching", "dte", "versioning", "publishing"],
-    //   },
-    // },
-    // {
-    //   type: "category",
-    //   label: "API Reference",
-    //   items: ["api-reference/commands", "api-reference/configuration"],
-    // },
     "faq",
     "troubleshooting",
   ],

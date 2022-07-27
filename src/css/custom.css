@@ -120,3 +120,7 @@ iframe {
 .button--red {
   background: #ec1f2e;
 }
+
+.center {
+  text-align: center;
+}

@@ -2,11 +2,10 @@ import { ChevronRightIcon, DuplicateIcon } from "@heroicons/react/outline";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import React, { useEffect, useState } from "react";
 import clsx from "clsx";
-import styles from "./hero-lerna.module.css";
-import LernaIcon from "./lerna-icon";
+import styles from "./hero-browzer.module.css";
+import BrowzerIcon from "./browzer-icon";
 
-export default function HeroLerna(): JSX.Element {
-  const command = "npx lerna init";
+export default function HeroBrowzer(): JSX.Element {
 
   const [copied, setCopied] = useState(false);
   useEffect(() => {
@@ -26,16 +25,20 @@ export default function HeroLerna(): JSX.Element {
       <div className="container">
         <div className="row">
           <div className="col col--8 margin-vert--xl">
-            {/* <a
-              href="https://github.com/lerna/lerna/issues/3121"
-              target="_blank"
-              rel="noreferrer"
-              className={styles.callout}
-            >
-              <span className="badge badge--primary callout__badge">NEW</span>
-              <span className={styles.callout__text}>Nrwl takes stewardship!</span>
-              <ChevronRightIcon className={styles.callout__icon} aria-hidden="true" />
-            </a> */}
+
+            <div className="center">
+              <a
+                href="https://openziti.io"
+                target="_blank"
+                rel="noreferrer"
+                className={styles.callout}
+              >
+                <span className="badge badge--primary callout__badge">NEW</span>
+                <span className={styles.callout__text}>Check out the OpenZiti Tech Blog!</span>
+                <ChevronRightIcon className={styles.callout__icon} aria-hidden="true" />
+              </a>
+            </div>
+
             <p className={styles.description}>
               OpenZiti BrowZer
             </p>
@@ -98,7 +101,7 @@ export default function HeroLerna(): JSX.Element {
                 className={styles.illustration__container}
                 style={{ backgroundImage: 'url("/images/browzer-logo.svg")' }}
               >
-                <LernaIcon className={styles.illustration__svg} />
+                <BrowzerIcon className={styles.illustration__svg} />
               </div>
             </div>
           </div>
