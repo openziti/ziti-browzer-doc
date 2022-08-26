@@ -58,6 +58,22 @@ const sidebars = {
 
     "faq",
     "troubleshooting",
+
+    {
+      type: "category",
+      label: "Quickstart",
+      items: [
+        "quickstart/kubernetes/kubernetes-sidecar-tunnel-quickstart",
+        "quickstart/docker/README",
+      ],
+      link: {
+        type: "generated-index",
+        title: "OpenZiti Quickstarts",
+        description: "OpenZiti Quickstarts",
+        slug: "/quickstart",
+      },
+    },
+
   ],
   
 };
