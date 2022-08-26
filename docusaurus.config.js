@@ -25,7 +25,35 @@ const config = {
     locales: ["en"],
   },
 
-  plugins: [],
+  plugins: [
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        name: "sidecar-tunnel", // used by CLI, must be path safe
+        id: "sidecar-tunnel",
+        sourceBaseUrl: "https://raw.githubusercontent.com/openziti/ziti/release-next/quickstart/kubernetes/sidecar-tunnel/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs/quickstart/kubernetes", // the base directory to output to.
+        documents: [  // the file name(s) to download
+          "kubernetes-sidecar-tunnel-quickstart.md", 
+          "sidecar-diagram.svg"],
+      }
+    ],
+
+    [
+      "docusaurus-plugin-remote-content",
+      {
+        name: "qs-docker-readme", // used by CLI, must be path safe
+        id: "qs-docker-readme",
+        sourceBaseUrl: "https://raw.githubusercontent.com/openziti/ziti/release-next/quickstart/docker/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+        outDir: "docs/quickstart/docker", // the base directory to output to.
+        documents: [  // the file name(s) to download
+          "README.md",
+        ], 
+        performCleanup: false,
+      }
+    ],
+
+  ],
 
   presets: [
     [
