@@ -47,7 +47,9 @@
     font-size: 3.75rem;
   }
   .slogan__highlight {
-    font-size: 4.5rem;
+    font-size: 3.75rem;
+    padding-top: 20px;
+    font-style: italic;
   }
 }
 

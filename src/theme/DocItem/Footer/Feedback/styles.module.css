@@ -1,0 +1,17 @@
+.feedback {
+  background-color: #158eed38;
+  border: 1px solid #158eed;
+  margin-bottom: 1em;
+  margin-top: 1rem;
+  border-radius: var(--ifm-alert-border-radius);
+  box-shadow: var(--ifm-alert-shadow);
+  color: var(--ifm-alert-foreground-color);
+}
+
+.feedback input[type="radio"] {
+  margin: 0 1rem 0 0;
+}
+
+.feedback .thank-you {
+  text-align: center;
+}

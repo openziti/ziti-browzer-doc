@@ -18,11 +18,12 @@ const sidebars = {
 
   // But you can create a sidebar manually
   main: [
+
     {
       type: "category",
       label: "About",
       items: [
-        "about/what-is-browzer",
+        "about/welcome",
         "about/architecture",
         "about/security",
         "about/roadmap",
@@ -32,7 +33,7 @@ const sidebars = {
       link: {
         type: "generated-index",
         title: "About BrowZer",
-        description: "About BrowZer",
+        description: "The sections below introduce you to BrowZer by breaking it down piece by piece.",
         slug: "/about",
       },
     },
@@ -50,14 +51,44 @@ const sidebars = {
       ],
       link: {
         type: "generated-index",
-        title: "Getting Started with OpenZiti BrowZer Open Source",
-        description: "Getting Started with OpenZiti BrowZer Open Source",
+        title: "Getting Started with OpenZiti BrowZer",
+        description: "Follow the sequence of steps outlined in the sections below.",
         slug: "/getting-started",
       },
     },
 
-    "faq",
+    {
+      type: "category",
+      label: "FAQ",
+      items: [
+        "faq/faq-general",
+        "faq/faq-http-agent",
+        "faq/faq-runtime",
+      ],
+      link: {
+        type: "generated-index",
+        title: "FAQ",
+        description: "Below are various categories we see questions falling into.",
+        slug: "/faq",
+      },
+    },
+
     "troubleshooting",
+
+    {
+      type: "category",
+      label: "Community",
+      items: [
+        "community/contributing",
+      ],
+      link: {
+        type: "generated-index",
+        title: "Community",
+        description: "How to be a part of the OpenZiti BrowZercommunity",
+        slug: "/community",
+      },
+    },
+
   ],
   
 };
