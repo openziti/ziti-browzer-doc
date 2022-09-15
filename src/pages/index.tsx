@@ -13,7 +13,7 @@ export default function Home(): JSX.Element {
     >
       <main>
         <HeroBrowzer />
-        <ProjectsUsingBrowzer />
+        {/* <ProjectsUsingBrowzer /> */}
       </main>
     </Layout>
   );

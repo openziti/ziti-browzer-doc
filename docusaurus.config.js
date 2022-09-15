@@ -25,7 +25,14 @@ const config = {
     locales: ["en"],
   },
 
-  plugins: [],
+  plugins: [
+    [
+      'docusaurus-plugin-segment',
+      {
+        apiKey: 'rlruGC16NVaO1XyGtwjht7yYkHsF6XuO'
+      }
+    ]
+  ],
 
   presets: [
     [
@@ -36,11 +43,14 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/openziti/ziti-browzer-doc/tree/main/",
-          sidebarCollapsed: false,
+          sidebarCollapsed: true,
           remarkPlugins: [require('mdx-mermaid')],
         },
         theme: {
-          customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/helpers.css")],
+          customCss: [
+            require.resolve("./src/css/custom.css"), 
+            require.resolve("./src/css/helpers.css")
+          ],
         },
         sitemap: {
           changefreq: "weekly",
@@ -49,7 +59,7 @@ const config = {
           filename: "sitemap.xml",
         },
         gtag: {
-          trackingID: "G-HCJ7RBE9CY",
+          trackingID: "UA-91801335-8",
         },
       }),
     ],
@@ -93,6 +103,7 @@ const config = {
           srcDark: "images/browzer-logo.svg",
         },
         items: [
+
           {
             type: "doc",
             docId: "/about",
@@ -107,31 +118,19 @@ const config = {
             label: "Get Started",
           },
 
-          { to: "https://openziti.io", label: "OpenZiti Tech Blog", position: "right" },
-          // {
-          //   href: "https://nx.dev",
-          //   className: "header-nxdev-link",
-          //   "aria-label": "Nx documentation",
-          //   position: "right",
-          //   title: "Check Nx",
-          //   label: "Nx",
-          // },
-          // {
-          //   href: "https://nx.app",
-          //   className: "header-nxdev-link",
-          //   "aria-label": "Nx Cloud",
-          //   position: "right",
-          //   title: "Check Nx Cloud",
-          //   label: "Nx Cloud",
-          // },
-          // {
-          //   href: "https://nrwl.io",
-          //   className: "header-nrwlio-link",
-          //   "aria-label": "Nrwl consulting",
-          //   position: "right",
-          //   title: "Check Nrwl",
-          //   label: "Nrwl",
-          // },
+          {
+            type: "doc",
+            docId: "/faq",
+            position: "left",
+            label: "FAQ",
+          },
+
+          { 
+            to: "https://openziti.io", 
+            label: "OpenZiti Tech Blog", 
+            position: "right" 
+          },
+
           {
             href: "https://github.com/openziti/ziti",
             className: "header-github-link",
@@ -139,6 +138,7 @@ const config = {
             position: "right",
             title: "OpenZiti on Github",
           },
+
         ],
         hideOnScroll: true,
       },
@@ -197,7 +197,7 @@ const config = {
             ],
           },
         ],
-        copyright: `&copy; ${new Date().getFullYear()} NetFoundry`,
+        copyright: `&copy; ${new Date().getFullYear()} NetFoundry. <br/>Built with ❤️ by makers for makers. <br/>Ship it!`,
       },
       prism: {
         theme: lightCodeTheme,
