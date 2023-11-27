@@ -4,12 +4,8 @@ import React, { useEffect, useState } from "react";
 import clsx from "clsx";
 import styles from "./hero-browzer.module.css";
 import BrowzerIcon from "./browzer-icon";
-<<<<<<< HEAD
 import TypingCarousel1 from "@site/src/components/typing-carousel1";
 import TypingCarousel2 from "@site/src/components/typing-carousel2";
-=======
-import TypingCarousel from "@site/src/components/typing-carousel";
->>>>>>> origin/main
 
 export default function HeroBrowzer(): JSX.Element {
 
@@ -32,18 +28,18 @@ export default function HeroBrowzer(): JSX.Element {
         <div className="row">
           <div className="col col--8 margin-vert--xl">
 
-            <div className="right">
+            {/* <div className="right">
               <a
                 href="https://openziti.io"
                 target="_blank"
                 rel="noreferrer"
                 className={styles.callout}
               >
-                {/* <span className="notification_new">NEW</span>
+                <span className="notification_new">NEW</span>
                 <span className={styles.callout__text}>Check out the OpenZiti Tech Blog!</span>
-                <ChevronRightIcon className={styles.callout__icon} aria-hidden="true" /> */}
+                <ChevronRightIcon className={styles.callout__icon} aria-hidden="true" />
               </a>
-            </div>
+            </div> */}
 
             {/* <p className={styles.description}>
               BrowZer from OpenZiti
