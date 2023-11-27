@@ -68,6 +68,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'try_browzer',
+        content:
+          'Get Started with BrowZer for Free &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="font-size: 1.2em; font-weight: 600;" target="_blank" rel="noopener noreferrer" href="https://nfconsole.io/signup?selfServicePlan=teams&stepName=chosePlan&stepNum=1">Sign Up <span aria-hidden="true">→</span></a>',
+        backgroundColor: '#158eed',
+        textColor: '#fff',
+        isCloseable: false,
+      },
+
       algolia: {
         appId: "TQTSCMZ58J",
         apiKey: "9f3a0b1ac315bf1744cdbd1c4e8b3d23",
@@ -96,7 +105,7 @@ const config = {
         { name: "og:image", content: "https://browzer.info/images/og-image-browzer.png" },
       ],
       navbar: {
-        title: "OpenZiti BrowZer",
+        title: "BrowZer by NetFoundry",
         logo: {
           alt: "OpenZiti BrowZer Logo",
           src: "images/browzer-logo.svg",
@@ -126,7 +135,7 @@ const config = {
           },
 
           { 
-            to: "https://openziti.io", 
+            to: "https://blog.openziti.io", 
             label: "OpenZiti Tech Blog", 
             position: "right" 
           },

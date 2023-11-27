@@ -29,7 +29,6 @@
 }
 
 .slogan {
-  margin-top: 2rem;
   font-size: 3rem;
   letter-spacing: -0.05em;
   line-height: 1;
@@ -39,17 +38,33 @@
 }
 .slogan__highlight {
   color: var(--ifm-color-primary);
-  font-size: 3.75rem;
+  font-size: 2.0rem;
 }
 
 @media only screen and (min-width: 768px) {
   .slogan {
-    font-size: 3.75rem;
+    font-size: 2.0rem;
   }
   .slogan__highlight {
-    font-size: 3.75rem;
+    font-size: 2.0rem;
     padding-top: 20px;
     font-style: italic;
+  }
+}
+
+.slogan2 {
+  /* font-size: 2rem; */
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+.slogan2 span {
+  /* display: block; */
+}
+
+@media only screen and (min-width: 768px) {
+  .slogan2 {
+    font-size: 2.0rem;
+    margin-bottom: -5px;
   }
 }
 
@@ -93,7 +108,7 @@
 .illustration {
   position: relative;
   display: none;
-  align-items: center;
+  align-items: flex-start;
   height: 100%;
 }
 .illustration__container {
@@ -115,3 +130,35 @@
     display: flex;
   }
 }
+
+.carousel {
+  font-size: 2.5rem;
+  letter-spacing: -0.05em;
+  line-height: 1;
+}
+.carousel span {
+  border-radius: 10px;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  font-family: 'Ubuntu';
+  background: #121FCF;
+  background: linear-gradient(to right, #158eed 0%, #ec1f2e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel {
+    font-size: 2.5rem;
+  }
+}
+
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+ 
+ @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);

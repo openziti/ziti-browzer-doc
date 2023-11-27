@@ -4,7 +4,8 @@ import React, { useEffect, useState } from "react";
 import clsx from "clsx";
 import styles from "./hero-browzer.module.css";
 import BrowzerIcon from "./browzer-icon";
-import TypingCarousel from "@site/src/components/typing-carousel";
+import TypingCarousel1 from "@site/src/components/typing-carousel1";
+import TypingCarousel2 from "@site/src/components/typing-carousel2";
 
 export default function HeroBrowzer(): JSX.Element {
 
@@ -27,7 +28,7 @@ export default function HeroBrowzer(): JSX.Element {
         <div className="row">
           <div className="col col--8 margin-vert--xl">
 
-            <div className="right">
+            {/* <div className="right">
               <a
                 href="https://openziti.io"
                 target="_blank"
@@ -38,29 +39,49 @@ export default function HeroBrowzer(): JSX.Element {
                 <span className={styles.callout__text}>Check out the OpenZiti Tech Blog!</span>
                 <ChevronRightIcon className={styles.callout__icon} aria-hidden="true" />
               </a>
-            </div>
+            </div> */}
 
             {/* <p className={styles.description}>
               BrowZer from OpenZiti
             </p> */}
 
-            <h1 className={styles.slogan}>
-              <span>Modern web application security</span>
-              <TypingCarousel/>
-              <span className={styles.slogan__highlight}>Ship secureasily!</span>
-            </h1>
+
+            <h2 className={styles.slogan}>
+              <span>Secure convenient access to your web apps</span>
+            </h2>
+
+            <h2 className={styles.slogan2}>
+              <span>for</span>
+              <span className={styles.carousel}><TypingCarousel1/></span>
+            </h2>
+            <h2 className={styles.slogan2}>
+            <span>but not</span>
+              <span className={styles.carousel}><TypingCarousel2/></span>
+            </h2>
+
+            <hr className={styles.rounded} />
+
+
+              {/* <h1 className={styles.slogan}>
+                <span className={styles.slogan__highlight}>Ship secureasily!</span>
+              </h1> */}
+
             <p className={styles.description}>
 
-            BrowZer is an open source solution 
-            from the OpenZiti project that helps you 
-            <strong> host private-to-the-internet web apps</strong> without sacrificing ease-of-access for your<strong> authorized users</strong>.
+            BrowZer is open source web app security built on the <a href="https://docs.openziti.io">OpenZiti</a> zero trust networking platform. 
+            <br/><br/>Available as SaaS or self-hosted, BrowZer enables hosting<strong> private-to-the-internet</strong> web apps without sacrificing ease-of-access for <strong> authorized users</strong>.
 
             </p>
+            <p className={styles.description}>
+            Reduce risk of breach while simplifying administration with BrowZer's identity-based 
+            secure remote access.  <br/><br/>Ensure your users have access to the critical web apps
+            they need, without exposing your web apps to the internet.
+            </p>
+
 
             <br/>
-            <br/>
             <p className={styles.description2}>
-            Welcome to the OpenZiti BrowZer environment.
+            Hello BrowZer!
             </p>
             <br/>
 
@@ -86,7 +107,7 @@ export default function HeroBrowzer(): JSX.Element {
               </div>
 
           </div>
-          <div className="col col--4">
+          <div className="col col--3 margin-vert--xl">
             <div className={styles.illustration}>
               <div
                 className={styles.illustration__container}
