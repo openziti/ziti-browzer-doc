@@ -4,8 +4,12 @@ import React, { useEffect, useState } from "react";
 import clsx from "clsx";
 import styles from "./hero-browzer.module.css";
 import BrowzerIcon from "./browzer-icon";
+<<<<<<< HEAD
 import TypingCarousel1 from "@site/src/components/typing-carousel1";
 import TypingCarousel2 from "@site/src/components/typing-carousel2";
+=======
+import TypingCarousel from "@site/src/components/typing-carousel";
+>>>>>>> origin/main
 
 export default function HeroBrowzer(): JSX.Element {
 
