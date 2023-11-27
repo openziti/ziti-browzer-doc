@@ -38,15 +38,15 @@
 }
 .slogan__highlight {
   color: var(--ifm-color-primary);
-  font-size: 2.5rem;
+  font-size: 2.0rem;
 }
 
 @media only screen and (min-width: 768px) {
   .slogan {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
   .slogan__highlight {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     padding-top: 20px;
     font-style: italic;
   }
@@ -63,7 +63,7 @@
 
 @media only screen and (min-width: 768px) {
   .slogan2 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
     margin-bottom: -5px;
   }
 }

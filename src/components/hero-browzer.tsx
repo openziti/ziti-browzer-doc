@@ -47,7 +47,7 @@ export default function HeroBrowzer(): JSX.Element {
 
 
             <h2 className={styles.slogan}>
-              <span>Secure convenient access to web apps</span>
+              <span>Secure convenient access to your web apps</span>
             </h2>
 
             <h2 className={styles.slogan2}>
